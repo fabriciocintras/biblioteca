@@ -43,5 +43,9 @@
                 }
             </tbody>
         </table>
+          @if(Model.Count <= 0)
+          {
+              <p>Nenhum Registro Encontrado!</p>
+          }
     </div>
 </div>
